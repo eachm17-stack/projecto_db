@@ -13,7 +13,7 @@
             @csrf
 
             <div>
-                <label class="block text-sm font-semibold mb-1">Título del Proyecto:</label>
+                <label class="block text-sm font-semibold mb-1">Título del Proyecto Solicitado:</label>
                 <input type="text" name="title" value="{{ old('title') }}"
                        class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-white focus:outline-none focus:border-sky-500">
                 @error('title')

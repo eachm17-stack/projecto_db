@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Proyectos - Task Manager SaaS</title>
+    <title>Proyectos - Manejador de Tareas</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-slate-900 text-slate-100 p-8">
@@ -16,7 +16,7 @@
         @endif
 
         <div class="flex justify-between items-center mb-6">
-            <h1 class="text-2xl font-bold text-white">Módulo de Proyectos</h1>
+            <h1 class="text-2xl font-bold text-white">Proyectos</h1>
             <a href="{{ route('projects.create') }}" class="bg-sky-500 hover:bg-sky-600 px-4 py-2 rounded-lg font-bold transition text-sm">
                 + Nuevo Proyecto
             </a>
